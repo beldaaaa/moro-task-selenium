@@ -15,10 +15,4 @@ public class MoroActions {
     public void clickOnLinkByText(String linkText) {
         driver.findElement(By.linkText(linkText)).click();
     }
-
-//    public void verifyUrl(String expectedUrl) {
-//        if (!driver.getCurrentUrl().equals(expectedUrl)) {
-//            System.out.println(driver.getCurrentUrl());
-//        }
-//    }
 }

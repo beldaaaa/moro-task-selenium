@@ -9,9 +9,9 @@ public class GoogleElements {
 
     WebDriver driver;
 
-    @FindBy(xpath = "//*[@id=\"APjFqb\"]")
+    @FindBy(id = "APjFqb")
     public WebElement searchBox;
-    @FindBy(xpath = "/html/body/div[1]/div[3]/form/div[1]/div[1]/div[2]/div[4]/div[6]/center/input[1]")
+    @FindBy(name = "btnK")
     public WebElement searchButton;
 
     public GoogleElements(WebDriver driver) {
